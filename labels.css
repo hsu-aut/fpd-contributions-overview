@@ -35,3 +35,15 @@
     font-size: 12px;
     margin: 4px 2px;
 }
+.label_tool {
+    border-radius: 2px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+}
