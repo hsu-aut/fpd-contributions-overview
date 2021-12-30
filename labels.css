@@ -1,6 +1,6 @@
 .label {
     border-radius: 2px;
-    background-color: #ff0000; /* Green */
+    background-color: #ff0000; 
     border: none;
     color: white;
     padding: 2px 2px;
@@ -12,7 +12,7 @@
 }
 .label_standard {
     border-radius: 2px;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 2px 2px;
@@ -38,6 +38,30 @@
 .label_tool {
     border-radius: 2px;
     background-color: rgb(255, 166, 0);
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+.label_comparison {
+    border-radius: 2px;
+    background-color: rgb(255, 0, 221);
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+.label_usage {
+    border-radius: 2px;
+    background-color: rgb(0, 225, 255);
     border: none;
     color: white;
     padding: 2px 2px;
