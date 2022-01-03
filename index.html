@@ -1,129 +1,160 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Contributions to the VDI/VDE 3682</title>
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
-
+	<meta charset="UTF-8">
+	<title>Contributions to the VDI/VDE 3682</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./modal.css">
 </head>
+
 <body>
-<h1>Contributions to the VDI/VDE 3682 <span>(2005–2021)</span></h1>
-<div style="position: absolute; top: 15px; right: 10px; font-size: 12px">
-	<a href="https://www.hsu-hh.de/aut/" target="_blank"><img src="atl.site.logo.jpg" alt="Helmut Schmidt University Hamburg"></a></div>
-<div class="flex-parent">
-	<div class="input-flex-container">
-		<input type="radio" name="timeline-dot" data-description="2005" checked>
-		<div class="dot-info" data-description="2005">
-			<span class="year">2005</span>
-			<span class="label">Release</span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2006">
-		<div class="dot-info" data-description="2006">
-			<span class="year">2006</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2007">
-		<div class="dot-info" data-description="2007">
-			<span class="year">2007</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2008">
-		<div class="dot-info" data-description="2008">
-			<span class="year">2008</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2009">
-		<div class="dot-info" data-description="2009">
-			<span class="year">2009</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2010">
-		<div class="dot-info" data-description="2010">
-			<span class="year">2010</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2011">
-		<div class="dot-info" data-description="2011">
-			<span class="year">2011</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2012">
-		<div class="dot-info" data-description="2012">
-			<span class="year">2012</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2013">
-		<div class="dot-info" data-description="2013">
-			<span class="year">2013</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2014">
-		<div class="dot-info" data-description="2014">
-			<span class="year">2014</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2015">
-		<div class="dot-info" data-description="2015">
-			<span class="year">2015</span>
-			<span class="label">Re-Release</span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2016">
-		<div class="dot-info" data-description="2016">
-			<span class="year">2016</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2017">
-		<div class="dot-info" data-description="2017">
-			<span class="year">2017</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2018">
-		<div class="dot-info" data-description="2018">
-			<span class="year">2018</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2019">
-		<div class="dot-info" data-description="2019">
-			<span class="year">2019</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2020">
-		<div class="dot-info" data-description="2020">
-			<span class="year">2020</span>
-			<span class="label"></span>
-		</div>
-		<input type="radio" name="timeline-dot" data-description="2021">
-		<div class="dot-info" data-description="2021">
-			<span class="year">2021</span>
-			<span class="label"></span>
+	<h1>Contributions to the VDI/VDE 3682 <span>(2005–2021)</span></h1>
+	<div style="position: absolute; top: 15px; right: 10px; font-size: 12px">
+		<a href="https://www.hsu-hh.de/aut/" target="_blank"><img src="atl.site.logo.jpg"
+				alt="Helmut Schmidt University Hamburg"></a>
+	</div>
+	<div>
+		<a style="position: absolute; top: 95px; right: 20px; font-size: 12px" href="#modalcontribution">Propose a
+			contribution</a>
+		<div class="popup" id="modalcontribution">
+			<a class="popup__overlay" href="#"></a>
+			<div class="popup__wrapper">
+				<a class="popup__close" href="#">&times;</a>
+				<h3><b>Propose a Contribution</b></h3>
+				<p><b>Please provide the following information:</b></p>
+				<p>Full title (including all authors):</p>
+				<p>Abstract: </p>
+				<p>Year of publication:</p>
+				<p>Month of publication:</p>
+				<p>DOI:</p>
+				<p>Category (Standard, Tool, Enhancement, Comparison, Usage, etc.):</p>
+				<p>Links to more information:</p>
+				<p>
+					<a
+						href="mailto:Hamied.Nabizada@hsu-hh.de,%20Tom.Jeleniewski@hsu-hh.de?subject=VDI3682-Contribution">
+						<b>Click here to propose a contribution</b>
+					</a>
+				</p>
+			</div>
 		</div>
 
-		<div id="timeline-descriptions-wrapper">
-			<p data-description="2005"><iframe src="2005.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2006"><iframe src="2006.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2007"><iframe src="2007.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2008"><iframe src="2008.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2009"><iframe src="2009.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2010"><iframe src="2010.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2011"><iframe src="2011.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2012"><iframe src="2012.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2013"><iframe src="2013.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2014"><iframe src="2014.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2015"><iframe src="2015.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2016"><iframe src="2016.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2017"><iframe src="2017.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2018"><iframe src="2018.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2019"><iframe src="2019.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2020"><iframe src="2020.html" width="100%" height=500 seamless></iframe></p>
-			<p data-description="2021"><iframe src="2021.html" width="100%" height=500 seamless></iframe></p>
+		<div class="flex-parent">
+			<div class="input-flex-container">
+				<input type="radio" name="timeline-dot" data-description="2005" checked>
+				<div class="dot-info" data-description="2005">
+					<span class="year">2005</span>
+					<span class="label">Release</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2006">
+				<div class="dot-info" data-description="2006">
+					<span class="year">2006</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2007">
+				<div class="dot-info" data-description="2007">
+					<span class="year">2007</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2008">
+				<div class="dot-info" data-description="2008">
+					<span class="year">2008</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2009">
+				<div class="dot-info" data-description="2009">
+					<span class="year">2009</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2010">
+				<div class="dot-info" data-description="2010">
+					<span class="year">2010</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2011">
+				<div class="dot-info" data-description="2011">
+					<span class="year">2011</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2012">
+				<div class="dot-info" data-description="2012">
+					<span class="year">2012</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2013">
+				<div class="dot-info" data-description="2013">
+					<span class="year">2013</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2014">
+				<div class="dot-info" data-description="2014">
+					<span class="year">2014</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2015">
+				<div class="dot-info" data-description="2015">
+					<span class="year">2015</span>
+					<span class="label">Re-Release</span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2016">
+				<div class="dot-info" data-description="2016">
+					<span class="year">2016</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2017">
+				<div class="dot-info" data-description="2017">
+					<span class="year">2017</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2018">
+				<div class="dot-info" data-description="2018">
+					<span class="year">2018</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2019">
+				<div class="dot-info" data-description="2019">
+					<span class="year">2019</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2020">
+				<div class="dot-info" data-description="2020">
+					<span class="year">2020</span>
+					<span class="label"></span>
+				</div>
+				<input type="radio" name="timeline-dot" data-description="2021">
+				<div class="dot-info" data-description="2021">
+					<span class="year">2021</span>
+					<span class="label"></span>
+				</div>
+
+				<div id="timeline-descriptions-wrapper">
+					<p data-description="2005"><iframe src="2005.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2006"><iframe src="2006.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2007"><iframe src="2007.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2008"><iframe src="2008.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2009"><iframe src="2009.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2010"><iframe src="2010.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2011"><iframe src="2011.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2012"><iframe src="2012.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2013"><iframe src="2013.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2014"><iframe src="2014.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2015"><iframe src="2015.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2016"><iframe src="2016.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2017"><iframe src="2017.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2018"><iframe src="2018.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2019"><iframe src="2019.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2020"><iframe src="2020.html" width="100%" height=500 seamless></iframe></p>
+					<p data-description="2021"><iframe src="2021.html" width="100%" height=500 seamless></iframe></p>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
 
 
 
 
 </body>
+
 </html>
