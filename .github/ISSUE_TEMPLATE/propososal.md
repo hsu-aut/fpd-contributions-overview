@@ -19,4 +19,4 @@ assignees: ''
 
 **Category (Standard, Tool, Enhancement, Comparison, Usage, etc.):**
 
-Links to more information:
+**Links to more information:**
